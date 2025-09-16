@@ -1,0 +1,62 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+#nivel_danoninho{
+    
+    display: flex;
+
+    flex-direction: row;
+    justify-content: start;
+    align-items: start;
+
+    gap: 10px;
+}
+
+.danoni{
+    background-color: rgb(255, 255, 255);
+    
+    height: 300px;
+    
+}
+
+#bloco_1{
+    background-color: red;
+    flex:1 0 20%;
+    
+}
+
+#bloco_2{
+    background-color: green;
+
+    flex:0 1 60%;
+}
+
+#bloco_3{
+    background-color: blue;
+   /*order: 1; comando para controlar ordem do posisionada*/
+         /*grow shink basic*/   
+    flex:0 1 20%;
+   /* align-self: flex-end;*/
+}
+
+#cabecalho_danoni{
+    width: 100%;
+    height: 50px;
+    margin: 0px 0px 10px 0px;
+    background-color: yellow;
+}
+#rodape_danoni{
+    width: 100%;
+    height: 50px;
+    margin: 10px 0px 0px 0px;
+    background-color: yellow;
+}
+#main_danoni{
+    padding: 10px;
+    /*display: none;*/
+}
+
+

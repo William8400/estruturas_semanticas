@@ -1,0 +1,46 @@
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.estruturas_semantica{
+    border: 0px solid black;
+    
+
+}
+
+#cabecalho{
+    padding: 10px 0px;
+    width: 100vw;
+    background-color: antiquewhite;
+}
+
+#menu_principal{
+    width: 100%;
+    padding: 10px 0px ;
+    margin: 0px;
+    background-color: beige;
+}
+
+section{
+    background-color: rgb(243, 231, 252);
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.bloco_generico{
+    background-color: red;
+    width: 200px;
+    height: 300px;
+    margin: 10px;
+}
+article{
+    display: inline;
+}

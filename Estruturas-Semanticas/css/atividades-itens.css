@@ -1,0 +1,128 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+#nivel_danoninho{
+    
+    display: flex;
+
+    flex-direction: row;
+    justify-content: start;
+    align-items: start;
+
+    gap: 10px;
+}
+
+.danoni{
+    background-color: rgb(255, 255, 255);
+    
+    height: 300px;
+    
+}
+
+#bloco_1{
+    background-color: red;
+    flex:1 0 20%;
+
+    
+}
+
+#bloco_2{
+    background-color: green;
+
+    flex:0 1 60%;
+}
+
+#bloco_3{
+    background-color: blue;
+   /*order: 1; comando para controlar ordem do posisionada*/
+         /*grow shink basic*/   
+    flex:0 1 20%;
+   /* align-self: flex-end;*/
+}
+
+#cabecalho_danoni{
+    width: 100%;
+    height: 50px;
+    margin: 0px 0px 10px 0px;
+    background-color: yellow;
+}
+#rodape_danoni{
+    width: 100%;
+    height: 50px;
+    margin: 10px 0px 0px 0px;
+    background-color: yellow;
+}
+#main_danoni{
+    padding: 10px;
+    display: none;
+    /*display: none;*/
+}
+
+/*Nivel Suco*/
+#nivel_suco{
+    padding: 10px;
+    background-color: aqua;
+}
+
+#cabecalho_suco{
+    width: 100%;
+    height: 60px;
+    background-color: blueviolet;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+}
+
+#menu_suco{
+    padding: 5px;
+}
+#menu_suco,ul{
+    display: flex;
+    gap: 10px;
+    
+}
+
+li{
+    background-color: rgb(60, 0, 112);
+    width: 40px;
+    height: 40px;
+}
+
+
+#logo{
+    
+    width: 40px;
+    height: 40px;
+    background-color: rgb(255, 0, 0);
+}
+
+#sec_suco{
+    margin: 10px 0px 0px 0px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    gap: 10px;
+}
+
+.conteudo_suco{
+    width: 100%;
+    height: 200px;
+    background-color: rgb(255, 255, 255);
+
+}
+
+#bloco_suco1{
+    flex: 0 1 50%;
+    background-color: rgb(132, 0, 255);
+}
+#bloco_suco2{
+    flex: 1 0 50%;
+    background-color: rgb(208, 159, 253);
+}

@@ -1,0 +1,30 @@
+Arquivo para ensino e marcaçao do Conteudo da aula
+<link rel="stylesheet" href="css/style.css"> <!-- Conexão entre arquivo HTML e CSS  -->
+<!-- Estruturas semanticas da web -->
+<header> <!-- Conteudo semantico de cabeçalho -->
+    CABECALHO
+    <nav><!-- Conteudo semantico de navegaçao -->
+        NAVEGAÇAO
+    </nav>
+<header>
+
+<main> <!-- Conteudo semantico principal -->
+    PRINCIPAL
+    <section> <!-- Conteudo semantico de seçao-->
+        SEÇAO
+        <article> <!-- Conteudo semantico de artigos-->
+            ARTIGO
+        </article>
+        <article>
+            ARTIGO
+        </article>
+    </section>
+            
+    <aside><!-- Conteudo semantico lateral-->
+        LATERAL
+    </aside>
+</main>
+
+<footer> <!-- Conteudo semantico de rodape -->
+    RODAPE
+</footer>
